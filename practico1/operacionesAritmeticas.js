@@ -7,10 +7,6 @@ let suma = var1 + var2;
 let resta = var4 - var3;
 let resultadoFinal = suma * resta;
 
-console.log(resultadoFinal);
+let esPar = resultadoFinal % 2 === 0;
 
-let esPar = resultadoFinal%2;
-
-// console.log(esPar);
-
-console.log("Mis variables iniciales fueron: " , var1 , "," , var2 , "," , var3 , "y" , var4 , ". La respuesta a verificar si el resultado final es par es:" , esPar);
+console.log("Mis variables iniciales fueron: %i, %i, %i, %i. La respuesta a verificar si el resultado final es par es %s:", var1 , var2 , var3 , var4 , esPar);
