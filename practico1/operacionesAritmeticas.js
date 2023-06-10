@@ -1,7 +1,7 @@
 let var1 = 3;
 let var2 = 1;
-let var3 = 1;
-let var4 = 12; 
+let var3 = 2;
+let var4 = 11; 
 
 let suma = var1 + var2;
 let resta = var4 - var3;
